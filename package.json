@@ -1,0 +1,22 @@
+{
+  "name": "effiedesigner",
+  "version": "1.0.0",
+  "description": "Portfolio",
+  "main": "app.js",
+  "scripts": {
+    "start": "node app.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/godfern/effiedesigner.git"
+  },
+  "author": "Godfrey",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/godfern/effiedesigner/issues"
+  },
+  "homepage": "https://github.com/godfern/effiedesigner#readme",
+  "dependencies": {
+    "express": "^4.14.0"
+  }
+}
