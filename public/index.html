@@ -1,47 +1,52 @@
+<!DOCTYPE html>
 <html>
     <head>
         <title>epifaniofernsdesigner</title>
-        <link rel="stylesheet" href="css/bootstrap.min.css" type="text/css">
-        <link rel="stylesheet" href="css/the-big-picture.css" type="text/css">
+        <link href="/node_modules/bootstrap/dist/css/bootstrap.min.css" rel="stylesheet" type="text/css">
+        <link href="/css/style.css" rel="stylesheet">
+
+        <!--Custom fonts-->
+        <link href="/node_modules/font-awesome/css/font-awesome.min.css" rel="stylesheet" type="text/css">
+
     </head>
     <body>
-    <nav class="navbar navbar-inverse nav-change navbar-fixed-top" role="navigation">
-        <div class="container">
-            <div class="navbar-header">
-                <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1">
-                    <span class="sr-only">Toggle navigation</span>
-                    <span class="icon-bar"></span>
-                    <span class="icon-bar"></span>
-                    <span class="icon-bar"></span>
-                </button>
-                <a class="navbar-brand" href="#home">Epifanio Fernandes / GRAPHICS-DESIGN-CREATIVE</a>
+        <nav class="navbar navbar-inverse nav-change navbar-fixed-top" role="navigation">
+            <div class="container">
+                <div class="navbar-header">
+                    <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1">
+                        <span class="sr-only">Toggle navigation</span>
+                        <span class="icon-bar"></span>
+                        <span class="icon-bar"></span>
+                        <span class="icon-bar"></span>
+                    </button>
+                    <span class="navbar-brand nav-link" data-button="home">Epifanio Fernandes / GRAPHICS-DESIGN-CREATIVE</span>
+                </div>
+                <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+                    <ul class="nav navbar-nav pull-right">
+                        <li>
+                            <span class="nav-link" data-button="bio">Bio</span>
+                        </li>
+                        <li>
+                            <span class="nav-link" data-button="work">Work</span>
+                        </li>
+                        <li>
+                            <span class="nav-link" data-button="contact">Contact</span>
+                        </li>
+                    </ul>
+                </div>
             </div>
-            <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
-                <ul class="nav navbar-nav pull-right">
-                    <li>
-                        <a href="#bio">Bio</a>
-                    </li>
-                    <li>
-                        <a href="#work">Work</a>
-                    </li>
-                    <li>
-                        <a href="#contact">Contact</a>
-                    </li>
-                </ul>
-            </div>
-        </div>
-    </nav>
-    <div class="container container-change">
-        <div class="row" id="home">
+        </nav>
+        <div class="container container-change">
+        <div class="row show" id="home">
             <div class="col-md-6 col-sm-12">
-                <h1>The Big Picture</h1>
-                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Magni, iusto, unde, sunt incidunt id sapiente rerum soluta voluptate harum veniam fuga odit ea pariatur vel eaque sint sequi tenetur eligendi.</p>
+                <h1>Epifanio Fernandes / GRAPHICS-DESIGN-CREATIVE</h1>
             </div>
         </div>
         <div class="row" id="bio">
-            <div class="col-md-6 col-sm-12">
+            <div class="col-md-12">
                 <h1>Bio</h1>
-                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Magni, iusto, unde, sunt incidunt id sapiente rerum soluta voluptate harum veniam fuga odit ea pariatur vel eaque sint sequi tenetur eligendi.</p>
+                <p>I am a diligent, hardworking and meticulous professional with exceptional skill in graphic design, desktop publishing &amp; creativity.</p>
+                <p>With a strong passion for design I enjoy working with clients to create new and innovative material that meets their requirements and adds value to their business. Throughout my career I have utilised my communication skills to develop strong working partnerships with both internal and external stakeholders to ensure projects are delivered to a high standard and within agreed timescales.</p>
             </div>
         </div>
         <div class="row" id="work">
@@ -51,11 +56,37 @@
             </div>
         </div>
         <div class="row" id="contact">
-            <div class="col-md-6 col-sm-12">
+            <div class="col-md-12">
                 <h1>Contact</h1>
-                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Magni, iusto, unde, sunt incidunt id sapiente rerum soluta voluptate harum veniam fuga odit ea pariatur vel eaque sint sequi tenetur eligendi.</p>
+                <div class="row">
+                    <div class="col-md-4">
+                        <div class="col-md-12">
+                            <h4 class="tag">Call</h4>
+                            <span class="tag-value">07470 263595</span>
+                        </div>
+                        <div class="col-md-12">
+                            <h4 class="tag">Email Address</h4>
+                            <span class="tag-value">epifanioferns2@gmail.com</span>
+                        </div>
+                    </div>
+                    <div class="col-md-4">
+                        <h4 class="tag"> Address</h4>
+                        <span class="tag-value">33 Bistrow Road, Hounslow, Middlesex TW3 1UP</span>
+                    </div>
+                    <div class="col-md-4">Icon</div>
+                    
+                </div>
             </div>
         </div>
     </div>
+    <!-- jQuery -->
+    <!-- <script src="js/jquery.js"></script> -->
+
+    <!-- Bootstrap Core JavaScript -->
+    <!-- <script src="js/bootstrap.min.js"></script> -->
+
+    <script src="/node_modules/jquery/dist/jquery.js"></script>
+    <script src="/node_modules/bootstrap/dist/js/bootstrap.min.js"></script>
+    <script src="/js/script.js" type="text/javascript"></script>
     </body>
 </html>
