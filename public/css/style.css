@@ -1,7 +1,7 @@
 body {
 	/*margin-top: 50px;*/
 	margin-bottom: 50px;
-	background: none;
+  background: #48CBF9 url("/images/bg1.jpg") no-repeat;
 }
 
 .full {
@@ -29,7 +29,24 @@ body {
 	height: 600px;
 	display: none;
 	position: absolute;
-	font-family: "brandon-grotesque", Helvetica, Arial ,sans-serif;
+	/*font-family: "brandon-grotesque", Helvetica, Arial ,sans-serif;*/
+  font-family: 'Tangerine', serif;
+  font-size: 30px;
+  color: aliceblue;
+}
+
+#home .img-circle {
+  border-radius: 50%;
+  display: block;
+  margin: 70px auto 23px;
+  width: 25%;
+}
+
+#home h1 {
+    font-family: 'Tangerine', serif;
+    color: aliceblue;
+    font-weight: 800;
+    text-align: center;
 }
 
 .show {
